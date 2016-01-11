@@ -18,6 +18,7 @@ System.register(['angular2/core'], function(exports_1) {
         execute: function() {
             NavbarComponent = (function () {
                 function NavbarComponent() {
+                    this.title = 'titletext';
                 }
                 NavbarComponent = __decorate([
                     core_1.Component({
